@@ -1,0 +1,70 @@
+html, button, input, select, textarea {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    font-size: 150;
+    overflow-y: scroll;
+    min-height: 100vh;
+}
+
+body {
+    font-family: 'Monteserrat', sans-serif;
+}
+
+header {
+    display: block;
+}
+
+.grid-wrap {
+    align-self: center;
+    margin: 0 auto;
+    max-width: 1040px;
+    width: 100%;
+}
+
+@media (min-width: 45em)  {
+.grid {
+    padding: 0 0.666666667rem;
+}
+}
+
+.grid {
+    width: 100%;
+}
+
+@media (min-width: 40em) {
+    .grid__col--two-thirds {
+        display: inline-block;
+        padding-right: 0.66666667rem;
+        vertical-align: middle;
+        width: 66.666666667%;
+    }
+}
+
+
+@media all and (min-width: 40em) {
+    .grid__col--two-thirds {
+        display: inline-block;
+        padding-right: 0.6666666667rem;
+        vertical-align: middle;
+        width: 66.6666666667%;
+    }
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0
+}
+
+h3 {
+    font-size: 1.17em; 
+    margin: 1em 0;
+}
